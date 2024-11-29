@@ -1,0 +1,14 @@
+.textbox{
+    text-align:center;
+    background-color:aliceblue;
+    color:black;
+    border: 2px solid black;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: brown;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+        <div class="textbox">
+        <label for="num1">Number 1:</label>
+        <input type="text" id="num1" name="num1"><br><br>
+        <label for="num2">Number 2:</label>
+        <input type="text" id="num2" name="num2"><br><br>
+        <label for="result">Result:</label>
+        <input type="text" id="result" name="result"><br><br>
+        <button onclick="calculator('+')">Addition</button>
+        <button onclick="calculator('-')">Subtraction</button>
+        <button onclick="calculator('*')">Multiply</button>
+        <button onclick="calculator('/')">Division</button>
+        <button onclick="calculator('%')">Modulus</button>
+        <button onclick="clearFn()">Cancel</button> 
+        </div>
+    <script src="calculation.js"></script>
+</body>
+</html>
