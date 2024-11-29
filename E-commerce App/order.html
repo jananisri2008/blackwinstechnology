@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple E-shopping Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">E-Shopping</a>
+        <a href="profile.html">Profile</a>
+        <a href="home.html">Home</a>
+        <a href="ship.html">Shipping</a>
+        <a href="order.html">Order</a>
+        <button class="loadpro" onclick="loadProduct()">Load Products</button>
+      </div>
+    </header>
+        <section class="order-container">
+        <h2 class="order-title">Order Info</h2>
+        <p align="center">Ordered Successfully.</p>
+        <div class="order-content">
+        <ul id="ordered-items" class="order-table"></ul>
+        <p align="center">Total: <span id="order-total-price"></span></p> 
+        </div>
+        </section>
+    <script src="scripts.js"></script> 
+    </body>
+   </html> 
+
+
